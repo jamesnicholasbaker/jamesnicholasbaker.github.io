@@ -1,0 +1,63 @@
+body {
+	font-family: arial;
+	background-color: white;
+	background-image: url(../images/bg.jpg); /* sets the background image. the two dots are used because we have to go up a file */
+	background-size: cover; /* resizes the background image so it covers the screen */
+	background-position: 50% 50%; /* puts the middle of the background image in the middle of the screen. By default, the background image aligns to the top right */
+	background-attachment: fixed; /* keeps the background image fixed when you scroll down the page */
+}
+
+.main {     /* We have defined a sub-div called "main" */
+	background-color: rgba(255,255,255,0.68); /* rgba allows you to set the opacity of the background color. That's what the 0.7 does */
+	width: 600px; /* as an alternative, you can set the 'max-width', which will mean that if the browser is smaller than that, it shrinks and looks better */
+	margin: 30px auto; /* margins of 30px on the top and bottom; auto on the left and right */
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px grey; /* gives the box a shadow. takes five values - horiontal position, vertical position, size, blur, color */
+}
+
+h1 {
+	font-family: 'Passion One', cursive;
+	text-shadow: 0 0 10px grey;  /* gives the text a shadow. takes four values - horizontal position, vertical position, size, color */
+	text-align: center;
+	font-size: 72px;
+	margin: 0;
+}
+
+h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+h3 {
+	font-size: 30px;
+	margin-bottom: 0;
+	cursor: pointer; /* gives the mouse a pointer when they are touching the element */
+}
+
+p, 
+ul,
+ol {
+	line-height: 1.2;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	font-style: italic;
+}
+
+img {
+	/* Centre the image */
+	display: block;
+	margin: 0 auto;
+	border: 2px solid black;
+	border-radius: 40%;
+	cursor: pointer;
+}
